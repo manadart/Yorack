@@ -1,7 +1,7 @@
 Yorack
 ======
 
-Simple setup for deploying a Yeoman application with Rack.
+Simple setup for deploying a Yeoman application to Heroku with Rack.
 
 ### Getting Started
 
@@ -15,8 +15,6 @@ Simple setup for deploying a Yeoman application with Rack.
 
 - Follow [these instructions](https://github.com/yeoman/yeoman/wiki/Deployment) for deploying a Yeoman application via Git Subtree.
 - Set the environment to production via ```heroku config:set RACK_ENV=production```.
-- Push your Git Subtree.
-
-I'm usually deploying to Heroku, so I use something like ```git subtree push --prefix dist heroku master``` each time I deploy.
+- Push your Git Subtree (I use something like ```git subtree push --prefix dist heroku master```).
 
 _Note: Working to figure out an issue with CoffeeScript files when running via Rack in development. It works fine in production._
