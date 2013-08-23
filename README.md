@@ -13,6 +13,7 @@ Simple setup for deploying a Yeoman application to Heroku with Rack.
 
 ### Deployment
 
+- Run ```grunt build```.
 - Follow [these instructions](https://github.com/yeoman/yeoman/wiki/Deployment) for deploying a Yeoman application via Git Subtree.
 - Set the environment to production via ```heroku config:set RACK_ENV=production```.
 - Push your Git Subtree (I use something like ```git subtree push --prefix dist heroku master```).
